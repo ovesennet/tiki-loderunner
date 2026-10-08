@@ -1,0 +1,49 @@
+; VER 56 TAB-
+; Code for blanking the screen
+
+; Start of texts internal to the MENY program:
+;
+Wrong format in the MENY.TXT file!
+Wrong "BIOS" for MENY system!
+Wrong "CCP" for MENY system!
+End of menu. Run normal TIKO.
+Press <RETURN> to continue -
+ -->
+  
+remove?
+remove
+not found
+?
+Y
+; Texts printed by the MENY ? command
+;
+Legal program syntax:
+  MENY
+NB:
+  For the menu system to work, the
+  INSTALL program must set up MENY as
+  an automatic command after startup.
+;
+;       Start of MENY screen texts.
+;       Note: First line must be blank.
+
+ *************************************
+ *****   Tiki-100 program menu   *****
+ *****      Tiki Data A/S        *****
+
+  'Exit menu, run normal TIKO    '  'KPM'
+R 'Show simple file catalog      '  'DIR'        'Which files? '
+R 'Show extended file catalog    '  'KAT'        'Which files? '
+  'Copy files                    '  'KOPI'       'Copy which files? '
+  'Simple program editor         '  'EDIT'       'Which file do you want to edit? '
+  'Copy TIKO                     '  'TIKOKOPI'
+  'Install TIKO                  '  'INSTALL'
+R 'Set file attributes           '  'SETT'     'Files and attributes: '
+  'Format new diskette           '  'NYPLATE'
+  'Raw-copy diskettes            '  'R]KOPI'
+R 'Command overview              '  '!'
+R 'Rename file                   '  'REN'      'Type: <newfile>=<oldfile>'
+R 'Delete file(s)                '  'ERA'      'Which files ? '
+R 'TIKI LODERUNNER               '  'LODERUN'
+Select program:
+

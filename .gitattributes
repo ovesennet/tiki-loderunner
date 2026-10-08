@@ -1,0 +1,15 @@
+* text=auto
+
+# Binary payloads - never let line-ending conversion touch these
+*.dsk   binary
+*.rom   binary
+*.com   binary
+*.bin   binary
+*.exe   binary
+*.png   binary
+*.wav   binary
+*.u4    binary
+*.u10   binary
+
+# Generated sources - keep the diff honest but do not normalise
+*.asm   text eol=lf
